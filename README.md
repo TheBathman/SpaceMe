@@ -1,0 +1,1 @@
+Repozitorij za igrico pri predmetu Programiranje 2.
