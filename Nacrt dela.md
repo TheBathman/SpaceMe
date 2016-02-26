@@ -1,11 +1,11 @@
 # Nacrt dela
 
 ## 1. teden
-* Zapis pravila igre
-* načrtovanje uporabniškega umesnika
+* Zapis pravil igre
+* Načrtovanje uporabniškega vmesnika
 
 ## 2. teden
-* Izdelava uporabniškega umesnika
+* Izdelava uporabniškega vmesnika
 
 ## 3. teden
 * Možnost igranja oseba proti osebi
