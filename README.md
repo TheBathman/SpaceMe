@@ -1,8 +1,9 @@
 #Osnovne informacije:
 * Igra se na kvadratni n x n mreži (n>4).
+* Igro igrata dva igralca, križec X in krožec O.
 * Cilj je zasesti čim večjo površino.
 * Igra se konča, ko prvemu igralcu zmanka potez.
-* Igro začne X
+* Igro začne X.
 
 #Potek:
   * Igralca začneta v nasprotnih vogalih mreže vsak s svojim pobarvanim kvadratkom
@@ -46,13 +47,13 @@ X se duplicira na sosednje polje.
     +---+---+---+---+---+---+---+
     |   |   |   |   |   |   |   |
     +---+---+---+---+---+---+---+
-    |   |   |   |   | 0 |   |   |
+    |   |   |   |   | O |   |   |
     +---+---+---+---+---+---+---+
     |   |   |   |   |   |   |   |
     +---+---+---+---+---+---+---+
     |   |   |   |   |   |   |   |
     +---+---+---+---+---+---+---+
-Krogec skoči (nujno se more premakniti za 2 polji).
+Krogec skoči (nujno se mora premakniti za 2 polji).
 
 ###Tretja poteza:
     +---+---+---+---+---+---+---+
@@ -60,7 +61,7 @@ Krogec skoči (nujno se more premakniti za 2 polji).
     +---+---+---+---+---+---+---+
     |   |   |   |   |   |   |   |
     +---+---+---+---+---+---+---+
-    |   |   |   |   | 0 |   |   |
+    |   |   |   |   | O |   |   |
     +---+---+---+---+---+---+---+
     |   |   |   |   |   |   |   |
     +---+---+---+---+---+---+---+
@@ -70,9 +71,9 @@ X se še enkrat duplicira.
 
 ###Četrta poteza:
     +---+---+---+---+---+---+---+
-    | X | 0 | 0 |   |   |   |   |
+    | X | O | O |   |   |   |   |
     +---+---+---+---+---+---+---+
-    |   |   | 0 |   |   |   |   |
+    |   |   | O |   |   |   |   |
     +---+---+---+---+---+---+---+
     |   |   |   |   |   |   |   |
     +---+---+---+---+---+---+---+
