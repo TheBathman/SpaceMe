@@ -1,4 +1,4 @@
- #Nacrt dela
+ # Nacrt dela
 
 ## 1. teden
 * Zapis pravila igre
