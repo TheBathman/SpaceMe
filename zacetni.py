@@ -2,7 +2,7 @@ from tkinter import *
 
 
 root = Tk()
-root.title("SpaceME")
+root.title("SpaceMe")
 
 #Izberi nacin igre:
 Label(root, text="Select players:").grid(row=1, column=0, padx=50)
