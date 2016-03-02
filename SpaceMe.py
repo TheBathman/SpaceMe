@@ -39,5 +39,28 @@ class Gui():
 	def resetiraj_igro(self, rdeci, modri):
 		#ponastavi igro na začetek
 	
-		
-		
+	def pobarvaj_rdece(self, i, j):
+		#pobarva i j polje rdeče
+	def pobarvaj_modro(self, i, j):
+		#pobarvaj i j polje modro
+
+	def konec(self, zmagovalec):
+		#napiše kdo je zmagal
+
+	def klik(self, event):
+		#tistemu, ki je na potezi podamo koordinate klika
+
+	def naredi_potezo(self, i, j):
+		#naredi potezo, če je sploh veljavna
+
+	def quit():
+		#zapre aplikacijo
+		root.quit()
+
+#manka še on top "menu" okno
+if __name__ == "__main__":
+	root = tkinter.Tk()
+	root.title("SpaceMe")
+	#manjkajo stavri, za katere ne vem kaj bodo počele
+
+	root.mainloop()
