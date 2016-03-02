@@ -1,18 +1,16 @@
-# Nacrt dela
+# Načrt dela
 
 ## 1. teden
 * Zapis pravil igre
 * Načrtovanje uporabniškega vmesnika
 
-## 2. teden
-* Izdelava uporabniškega vmesnika
-
-## 3. teden
-* Možnost igranja oseba proti osebi
-* Začetek razvijanja algoritma, ki bo služil kot možgani računalniškega nasprotnika
+## 2. in 3. teden
+* Zametki uporabniškega vmesnika
+* Možnost igranja oseba proti osebi -> razvijanje kode igrice
+* Združevanje kode z uporabniškim vmesnikom
 
 ## 4. teden
-* Razvijanje algoritma
+* Razvijanje algoritma, ki bo služil kot možgani računalniškega nasprotnika
 
 ## 5. teden
 * Končni popravki algoritma
