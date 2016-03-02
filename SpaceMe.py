@@ -4,6 +4,13 @@ import tkinter
 class Igra():
 
 	def __init__ (self):
+		#za začetek bo igra na plošči 6x6
+		#S (Size) bo vrednost, ki jo bo igralec imel možnost nastaviti v menuju z drsnikom
+		#zaenkrat bo S fiksno določen
+		S=6
+		self.plosca = [[None for y in range(S)] for x in range(S)]
+		self.zgodovina = []
+
 
 	def veljavne_poteze(self):
 		#preveri vse veljavne poteze, če jih za enega igralca ne več, konča igro
@@ -20,8 +27,10 @@ class Clovek_rdeci():
 
 	def igraj(self):
 		#Na potezi čakamo na gui
+		pass
 	def klik(self, i, j):
 		#naredimo potezo
+		self.gui.naredi_potezo(i, j)
 
 class Clovek_modri():
 	
@@ -29,8 +38,10 @@ class Clovek_modri():
 
 	def igraj(self):
 		#Na potezi čakamo na gui
+		pass
 	def klik(self, i, j):
 		#naredimo potezo
+		self.gui.naredi_potezo(i, j)
 
 class Gui():
 
@@ -57,7 +68,7 @@ class Gui():
 		#zapre aplikacijo
 		root.quit()
 
-#manka še on top "menu" okno
+#manjka še on top "menu" okno
 if __name__ == "__main__":
 	root = tkinter.Tk()
 	root.title("SpaceMe")
